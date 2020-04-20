@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="zh">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="潭州教育，潭州课堂，优质课程 ，线上教学，免费课程，直播课程，实用教程，专业培训，IT课程，语言学习，职业培训，职业教育，公开课，免费课程">
+    <meta name="description" itemprop="description" content="潭州课堂是潭州教育旗下的在线教育直播平台，集教学管理、在线授课听课、作业考试、互动学习功能于一体，支持web、PC、app、h5、小程序等多端同时在线互动直播。现已服务数百万学员在线学习，遍布欧美、东南亚、韩日、港澳台等多个国家和地区。现已开设300多门课程，涵盖编程、营销、设计、公考、艺术、语言、学历等多个科目，并实现万人同时在线互动学习。上网学习，就来潭州！">
+   <!-- 清除页面缓存 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>潭州课堂</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1443524_4kt0jv3klgo.css">
+    <link rel="stylesheet" href="./css/style.css">
+ </head>
+ <body>
+    <div id="root">
+    <!-- 以下是header部分 -->
+        <div class="header-area">
+            <h1 class="logo">潭州logo 潭州商标
+                <a href="">
+                    <img src="https://res.shiguangkey.com/homework/2019/11/23/605e3738a7/15744985742174050.gif" alt="">
+                </a>
+            </h1>
+            <div class="search-area">
+                <label>
+                    <input type="text" autofocus placeholder="搜索课程关键词">
+                    <p class="search-bth">搜索</p>
+                </label>
+                <ul class="related-courses">
+                    <li>
+                        <a href="">java</a>
+                    </li>
+                    <li>
+                        <a href="">Ul设计</a>
+                    </li>
+                    <li>
+                        <a href="">自媒体</a>
+                    </li>
+                    <li>
+                        <a href="">蔬菜种植</a>
+                    </li>
+                    <li>
+                        <a href="">淘宝</a>
+                    </li>
+                    <li>
+                        <a href="">热舞</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="download">
+                <a href="https://shiguangkey.com/help/downloadApp">
+                    <img src="https://www-cdn-res.shiguangkey.com/dist/static/download.7286b546.png" alt="潭州客户端下载">
+                </a>
+            </div>
+            <div class="head-portrait">
+                <span class="user-name">23期_小爱</span>
+                <div class="user-header">                 
+                    <a href="#">
+                        <img title="23期_张华同学" src="https://res.shiguangkey.com/file/201908/09/20190809210257688802968.jpg" alt="头像">
+                    </a>
+                    <div class="list-area">
+                        <span class="iconfont icon-sanjiaoxing"></span>
+                        <ul class="user-list">
+                            <li><a href="#">我的课表</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">个人信息</a></li>
+                            <li><a href="#">退出登录</a></li>
+                        </ul>  
+                    </div>               
+                </div>
+            </div>
+        </div>
+    <!-- 以下是swiper部分 -->
+        <div class="swiper-area">
+            <div class="nav-area">
+                    <ul class="nav">
+                        <li>
+                            <a href="">首页</a>
+                        </li>
+                        <li>
+                            <a href="">全部课程</a>
+                        </li>
+                        <li>
+                            <a href="">客服端</a>
+                        </li>
+                        <li>
+                            <a href="">关于我们</a>
+                        </li>
+                        <div class="service-hotline">
+                            <img src="https://res.shiguangkey.com/file/201909/29/20190929102516999755755.png" alt="">
+                        </div>
+                    </ul>
+                    <div class="rightsidebar">
+                        <h2 class="title">
+                            <span>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAYAAADphp8SAAAAK0lEQVQ4jWP8////fwYqACZqGEJVg1gYGBgYqWHQ4PTaaKzhB4PTa8M01gC9XAYiqCKvCQAAAABJRU5ErkJggg==" alt="">
+                            </span>课程分类
+                        </h2>
+                        <ul class="menu">
+                            <li>
+                                <span>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABtklEQVQ4jX2UTUtVURSGn3OqUUSOQ81Bps36AYnd6joQ+oLQgdRMbOIfEPoJEUHUpEFfA4eFohBliQmVTmpSqZSQNs0wJxE9De66sL3s44LN4n33Wu9Za7HXQSVz6uoT9Zv6V91RV4IbVIvWnJzIEfWfe9tb9XiaV6iEHQUmgClgFNgPzADrcd8FXATqgX8Cl4F5YFdFN+NrH9VudUKdUZeTc0cdUb9H7G/1RNpal9qnLqjX1fWKlt6rY+ox9WvSZoF6OmYyHaJDFSJf1MNJB/3JXb0ERoACKKP3q+RtCPiV4HngZfOuBGoBZsOvZESWgA8Z/ln4Wgl0BvgU/nkm4W5FlZ/Dd5QJWYR/AdxP+HvAA+AAcIbGEznYkgPqWgxs3N0Pc0y9re4L/DgZ7pXgxgOvoT4KMGd+XVDb1D+J0K3gXwV+iDqQBJyrEOpIYnbUkzb2sWkD2FjAxSA21M4KsXcRcy1iNgMvGg8StVfdiotN9WxG6IJ6I6r+EbFbao8tS9tPY2EPBX4DPAVWA3cDl4BTgbeB82SWtllZc4B72VzEZn8jqdWAYaAPaA9uA1gAJoHXrQn/AX4n2BeiUrKUAAAAAElFTkSuQmCC" alt="">
+                                </span>IT互联网
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAABo0lEQVQ4jYXTzYuPURQH8GOKwsLGZGUxTGNjYTEpymBMZGmwmaVSopkSSyslK0WW/gWxGEVKIaVRLCSRmcWw8BKaYmi8zMfiOU+/6/pNTp2693u+5/s85+UGovDDeIMZjFSx1rfgRnLuYhhREsbxW8e+taTCd2Pe3/YLu1rCRBGYwnSe57EtOTsLkVkcw/O8T7ZCMwk8wGr0ZYkwhxOVSF/mXUrscSt0LYEzRRkDeF+VMYsNGT+En4lfaJNWZf3n8w/GEj9aiLwuRA7iR+JPsaaeyFQGr2AHvv5H5Bl6VVMLbMJJDOafyV5tLEQWapFuQq1fTvLbQmS0EIE9Zc5SQteTfDXvByoReIf+pYRWYhlOJ3kRTzRLR7M3+6uy15dCA7ifiXM4h9v+tdHkb9fZq1dYF1iOl12SJrAPpzT7Iz8ymGIjRbn3AkNF8hgm8/ywKLlf03j4gM1YgTuJfemJiCPRsZ6IWJvnhQKfjoi9EfExInoj4lZE3IyI4YxfDHzvUtaiZlL1MLbqNLq1s7LZ43iBz5q39ahoajcf0jzyTzje4n8AcYf3FPXnUeUAAAAASUVORK5CYII=" alt="">
+                                </span>设计创作
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAABa0lEQVQ4jZ3RP0jWURTG8VOawUv/4KUhMsO2oJaaW9rfsbCpVrcQEoxaCipoaQiClmiIyKBFqaFJ3KWmaKmgaDDUQCiJ8tPgeeP48zXQAxfOec5zv/fcewOxjTWKr1jBJNrbgdywMSa3CrlVNj/CWOYr/bEWuyLifEQMZr07IlqZt7I+FBGd1B5GxFhETGf9uXvSnR7jbhb3sQczWf9Gpwt63DDP43mOv1z0e9iB1wUyguiC2niB1bJpDs9KfTe9B4p2MbVoPuZJPMWfxoS3i2eo6EObgQJ9mCrmm6nv3AqoD0+K8Xrql/ALl3Gi9Nu9QP2NN5nAaXQwntoSzhTP/go6i1f4UgxXsBc/sz6HxcxfFl+rguZLYzXHH8BBzOYBw7hmY/y7UeBtgVzAEbzHDxwr5n1Y+B9oGJ+ysYiPmX/HYes/42qBLDVBgaP4UEzfcKoBCWvv9i49D3qBIq/0Jqc73gPSXQPpXaf/BavZ4Hei4rugAAAAAElFTkSuQmCC" alt="">
+                                </span>实用外语
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABUUlEQVQ4jaWTvyvFURjGPxeJlF8pvxZlYDGzKKFMzEYTBoOF8hdYjaJMZhYmA8l/oERI6iolV0pR6n4M96jj3Hu7XE+d3vO85/k+73nf0zejEqEPOAWugBlgGWgBXoBd4IFyUFGb1Q512gI+1Tl/4kntCfqihVqrZtVXtUtdVKfUdnVXPVJzwWw1+rhebYqNWqKqQ2UqHoTz9cDnQ+G8eqr21iWdNgNtEX8HPhLNMLAJZAIfBbZrEtEZkIvWMzCQaMaDyTWwFnITqVGKeqAxyd2G2A+sfOfS1maBm4g/Uvzk+8AJMAa0U2h9JTW6AM4r3PITmACyQDewBBxWaq0c8sEQCg9CeqMt4C3iOWDhN86p0UgJzXY1RjvAU8TvgWMK/9yfjDaoPOySqHbYRagDWiM+AnSW0HWE2AdMhn1DiINAU0a9C4L/YK+GKmcSIQ9cfgFSXupLeoQCVQAAAABJRU5ErkJggg==" alt="">
+                                </span>兴趣艺术
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5NkQxNjMzN0I5M0VFODExODA0MUNFQjFDRDBEQUJDNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBMUQzRkRFNDNFRDUxMUU4ODhFRUU0RDBCNjQ2QUUyMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMUQzRkRFMzNFRDUxMUU4ODhFRUU0RDBCNjQ2QUUyMSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk2RDE2MzM3QjkzRUU4MTE4MDQxQ0VCMUNEMERBQkM3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk2RDE2MzM3QjkzRUU4MTE4MDQxQ0VCMUNEMERBQkM3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+OjAK9AAAAWJJREFUeNqU07svREEUx/HZjaCkWCqLoCArCoVHIYrtRCGRSETrX9DohEaiVqEkOgokKhSiIBLv0HjEioYlbMTG9Z34bXJW1sY9yWdn5t6Zc2fOveuCICjHIW4xjwa4MPzPeJAfz+jUhEbc4BxVxZKcafECTtS/RhlGTfL+Ykk+Nakd1XjReACVWMSckv6Z5F6LhnRxXeOx/9Yk6pzbcD8xiRjiGqfVRpDEDJYwi0GUulyQKa5i+kirzaIWbTgICscFWnPH8bqRMhOmVZN3jX3dljGhz+BV1x9Rb89WoTpMoQ8fJmnyVx38Li91b6VQoerwpAlfarcQM3OacKx7O4WSrJoz+x1lNH7Dpl9kPgv/sJbfCbrMDjp0rcds3cY+En5OicuPEbVr2FN/G83oRQIZHGHXv9zcK7bu9JThsH/AnJjZak2YJFFzlGrTT7kQYZNETD8bJokt7BVO8eBCxrcAAwAqmP3KQRqtRgAAAABJRU5ErkJggg==" alt="">
+                                </span> 农业生产
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="login-information">
+                        <div class="personal-area">
+                            <div class="personal-information">
+                                <a href="">
+                                    <img src="https://res.shiguangkey.com/file/201908/09/20190809210257688802968.jpg" alt="">
+                                </a>
+                                <p class="welcome">23期_小爱</p>
+                            </div>
+                            <ul class="course-reading">
+                                <li>
+                                    <a href="">
+                                        <span>15</span>
+                                    </a>
+                                    <p>课程</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>2</span>
+                                    </a>
+                                    <p>订单</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>0</span>
+                                    </a>
+                                    <p>作业</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="board"></div>
+                    </div>
+            </div>
+            <div class="picture-area">
+                <div class="swiper-img">
+                    <ul>
+                        <li><a href=""><img src="./images/swiper/8.jfif" alt=""></a></li>
+                        <li><a href=""><img src="./images/swiper/2.png" alt=""></a></li>
+                        <li><a href=""><img src="./images/swiper/6.jfif" alt=""></a></li>
+                        <li><a href=""><img src="./images/swiper/4.jfif" alt=""></a></li>
+                        <li><a href=""><img src="./images/swiper/1.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="tab">
+                    <ul>
+                        <li class="on"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- 以下是main部分 -->
+        <div class="main-area">
+            <div class="main">
+
+                <div class="course-content">
+                    <div class="internet-area">
+                       <div class="subject">
+                            <h3 class="theme" id="top">IT互联网</h3>
+                            <p class="more">
+                                <a href="" class="widely">更多</a>
+                            </p>
+                       </div>
+                       <ul class="content">
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201906/11/20190611163708689459129.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">Java/大数据零基础入门到实战</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">1585</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201904/10/20190410164405072924475.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">超级CMS入门</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">1357</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201904/15/20190415175006772293152.jpg?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">web基础课</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">5619</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201901/26/20190126202715936173195.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">Java se - 预科学班</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">3884</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201901/26/20190126202425895335384.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">大数据 - 预科学习班</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">1627</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201904/27/20190427140203572111125.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">大数据人工智能 - 讲座</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">3442</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201905/18/20190518143721574263287.jpg?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">C++体验课</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">30000</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201806/06/20180606170902833341459.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">区块链项目开发</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">9000</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201812/18/20181218155155493649489.jpg?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">电子商务/网络营销</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">29080</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="real-time">
+                                    <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                    直播中
+                                </span>
+                                <img src="https://res.shiguangkey.com/file/201908/07/20190807141318046574100.png?x-oss-process=image/format,webp" alt="">
+                                <div class="cbd">
+                                   <h3> 
+                                        <a href="">黄埔运营引流兼职指导师-南烛</a>
+                                    </h3>
+                                    <p class="data">
+                                        报考人数: <span class="cor">80</span><span class="fr">免费</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="foreign-language">
+                        <div class="subject">
+                            <h3 class="theme">实用外语</h3>
+                            <p class="more">
+                                <a href="" class="widely">更多</a>
+                            </p>
+                        </div>
+                        <ul class="content">
+                                <li>
+                                    <span class="real-time yow">
+                                        精品小课
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/16/20190516193152104105234.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">看动漫学日语</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">1585</span><span class="fr">￥49.9元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                       精品小课 
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201906/29/20190629171205567614281.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">浪漫西班牙语发音教学</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">13</span><span class="fr">￥69.9元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201910/04/20191004134143834946859.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">潭州日语轻松学</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">120</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201908/16/20190816153626614815532.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">大神教你零基础轻松学日语</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">1588</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201907/14/20190714144927639678446.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">日语趣学直通车</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">3025</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/21/20190921121056178888325.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">日语直通车</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">3032</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201904/26/20190426173211354643023.jpg?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">韩语入门直播课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">2008</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201902/25/20190225153623988304275.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">韩语小白变大神</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">2019</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/18/20190518165357144301552.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">韩语第一课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">5008</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/27/20190927133124152475790.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="">日系小文化</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">130</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="design-creation">
+                        <div class="subject">
+                            <h3 class="theme">设计创作</h3>
+                            <p class="more">
+                                <a href="" class="widely">更多</a>
+                            </p>
+                        </div>
+                        <ul class="content">
+                                <li>
+                                    <span class="real-time yow">
+                                        精品小课
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201906/14/20190614220453404426546.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="3Dmax软件入门教程">3Dmax软件入门教程</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">1585</span><span class="fr">￥49.9元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                       精品小课 
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201907/25/20190725193914297446667.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="【优课推荐】电商设计初养成-老被说文案缺乏层次怎么办？">【优课推荐】电商设计初养成-老被说文案缺乏层次怎么办？</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">2</span><span class="fr">￥19元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/06/20190506164736001644655.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="AI卡通形象教程—捕捉你的小可爱，设计你的表情包">AI卡通形象教程—捕捉你的小可爱，设计你的表情包</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">50</span><span class="fr">￥199</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/08/20190908132555729750835.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="AI商业插画直播分享课">AI商业插画直播分享课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">399</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201908/26/20190826161907478200993.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="潭州教育游戏动漫建模3Dmax Zbrush Maya">潭州教育游戏动漫建模3Dmax Zbrush Maya</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">9888</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201907/25/20190725162643046090276.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="CAD/UG冲压五金模具VIP体验课">CAD/UG冲压五金模具VIP体验课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">8000</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/13/20190513154428602262256.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="平面设计排版思维">平面设计排版思维</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">20018</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/18/20190518140716639362287.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="游戏动漫原画小白课堂">游戏动漫原画小白课堂</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">2019</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201807/11/20180711174511387490632.jpg?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="服装设计下午试听课堂">服装设计下午试听课堂</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">38888</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/18/20190518201515049954093.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="平面设计师进阶之路">平面设计师进阶之路</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">45001</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="interested-art">
+                        <div class="subject">
+                            <h3 class="theme">兴趣艺术</h3>
+                            <p class="more">
+                                <a href="" class="widely">更多</a>
+                            </p>
+                        </div>
+                        <ul class="content">
+                                <li>
+                                    <span class="real-time yow">
+                                        精品小课
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201907/30/20190730185049126328360.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="零基础二胡教学">零基础二胡教学</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">88</span><span class="fr">￥99.9元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                       精品小课 
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201907/04/20190704185301079287192.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="【升级版】明星都在用的懒人减肥法：让我两个月内狂瘦32斤！">【升级版】明星都在用的懒人减肥法：让我两个月内狂瘦32斤！</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">25</span><span class="fr">￥99.9元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201906/27/20190627140246126246016.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="14堂基本功跟练课-解决古典舞难题">14堂基本功跟练课-解决古典舞难题</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">8</span><span class="fr">￥98.9</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/06/20190506165357637694729.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="歌唱技巧训练助你成为K歌之王">歌唱技巧训练助你成为K歌之王</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">889</span><span class="fr">￥88元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201905/07/20190507210157435646502.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="【零基础古筝教学】学会弹古筝并非难事">【零基础古筝教学】学会弹古筝并非难事</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">65</span><span class="fr">￥66元</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201907/30/20190730165518959909507.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="播音主持试听课">播音主持试听课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">8200</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/05/20190905150713447192520.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="彩铅基础VIP试听课">彩铅基础VIP试听课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">2008</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/24/20190924133232835800344.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="简单易懂学唱歌">简单易懂学唱歌</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">209</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/24/20190924133232835800344.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="跟七月老师简单学唱歌">跟七月老师简单学唱歌</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">388</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        直播中
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/19/20190919115517478028052.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="彩铅基础课">彩铅基础课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">451</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="agricultural-production">
+                        <div class="subject">
+                            <h3 class="theme">农业生产</h3>
+                            <p class="more">
+                                <a href="" class="widely">更多</a>
+                            </p>
+                        </div>
+                        <ul class="content">
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        视频课
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201909/18/20190918142314370974491.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="园艺花卉学（湖南人文科技学院">园艺花卉学（湖南人文科技学院</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">88</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                       <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        视频课 
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201908/08/20190808162936482451666.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="植物生理学">植物生理学</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">200</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="real-time">
+                                        <img class="dynamic-icon" src="data:image/gif;base64,R0lGODlhDAAMALMKAJ+09kpy7m6P8sPR+dvj/LfH+JOr9Yeh9P///z5p7f///wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzc5MzVDNzlBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzc5MzVDN0FBM0IyMTFFN0JBQkVCQzNFNkUxQzM4MjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNzkzNUM3N0EzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNzkzNUM3OEEzQjIxMUU3QkFCRUJDM0U2RTFDMzgyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAUEAAoALAAAAAAMAAwAAAQaMMlJq70464tQ6p83gaQolSGFgqOHtim7JREAIfkEBQQACgAsAgAEAAgAAQAABAcQAHWOEiICACH5BAUEAAoALAIAAwAIAAIAAAQKMARFK0JqDGVMBAAh+QQFBAAKACwCAAMACAACAAAEChAAFYK6GCFVSgQAIfkEBQQACgAsAgADAAgAAgAABAkQIXWOuhgTEgEAIfkEBQQACgAsAgACAAgAAwAABAsQAEVrHUOFYClCEQAh+QQFBAAKACwCAAIACAACAAAECBAhRWuVSogIACH5BAUEAAoALAIAAQAIAAMAAAQJEABFaz3HamMiACH5BAUEAAoALAIAAQAIAAMAAAQJECFFax3D6lIiACH5BAUEAAoALAIAAQAIAAMAAAQJMARFa0XIakIiACH5BAUEAAoALAIAAQAIAAMAAAQKMCV1jrry6q0RigAh+QQFBAAKACwCAAEACAADAAAEClDJMaS9QoRwZQQAIfkEBQQACgAsAgABAAgABAAABAxQSYSkvcakdOXuSgQAIfkEBQQACgAsBQABAAUAAgAABAYQAEVrKREAIfkEBQQACgAsBQABAAUAAgAABAYwBEUrIREAIfkEBQQACgAsBQABAAUAAgAABAcwSQlAQigCACH5BAUEAAoALAUAAQAFAAIAAAQHUEkhUpIqAgAh+QQFBAAKACwFAAEABQADAAAEB1BJY6QFwEYAIfkEBQQACgAsBQABAAUAAwAABAdQyVKkDcFGACH5BAUEAAoALAUAAQAFAAQAAAQJUElCpE3JAmAjACH5BAUEAAoALAUAAQAFAAQAAAQJUEmEpL0qJRsBADs=" alt="">
+                                        视频课
+                                    </span>
+                                    <img src="https://res.shiguangkey.com/file/201908/02/20190802190044856550960.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="小龙虾公开课">小龙虾公开课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">1008</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201907/27/20190727192247764813592.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="潭州农业蔬菜种植技术">潭州农业蔬菜种植技术</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">889</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201907/27/20190727192224845987085.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="潭州农业种植技术大讲堂">潭州农业种植技术大讲堂</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">3028</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201909/23/20190923162919886930478.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="潭州农业养殖系列之养鸡公开课">潭州农业养殖系列之养鸡公开课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">8200</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201908/26/20190826190641214036043.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="潭州农业小龙虾公开课">潭州农业小龙虾公开课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">9008</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201908/26/20190826153106732251279.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="水产养殖技术大讲堂">水产养殖技术大讲堂</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">10000</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201907/27/20190727192313764466090.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="蔬菜种植技术免费公开课">蔬菜种植技术免费公开课</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">8888</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="https://res.shiguangkey.com/file/201909/24/20190924160618386644083.png?x-oss-process=image/format,webp" alt="">
+                                    <div class="cbd">
+                                       <h3> 
+                                            <a href="" title="潭州农产品网络销售培训直播课堂">潭州农产品网络销售培训直播课堂</a>
+                                        </h3>
+                                        <p class="data">
+                                            报考人数: <span class="cor">451</span><span class="fr">免费</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- 侧边导航栏 -->
+        <div class="horizontal-bar">
+            <div class="bar-list">
+                <div class="weixin-box">
+                    <div class="wechat-box">
+                        <img src="https://www-cdn-res.shiguangkey.com/dist/static/qrcode_for_footer.b2b7c2de.png" alt="">
+                        <p>关注潭州课堂</p>
+                        <p>官方公众号</p>
+                    </div>
+                </div>
+                <div class="software">
+                    <div class="app-box">
+                        <img src="https://www-cdn-res.shiguangkey.com/dist/static/app_down.19a82af3.png" alt="">
+                        <p>下载潭州课堂app</p>
+                        <p>随时随地学习</p>
+                    </div>
+                </div>
+                <div class="feedback-icon"></div>
+                <div id="return">
+                    <a href="">返回顶部</a>
+                </div>
+            </div>
+        </div>
+    <!-- 以下是友情链接部分 -->
+        <div class="friendlink">
+                <h4>友情链接:</h4>
+                <ul class="partners">
+                    <li>
+                        <a target="_blank" rel="noopener noreferrer" href="http://www.tanzhoujiaoyu.com/">
+                            潭州官网
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://bbs.moonseo.cn/">
+                            SEO研究中心
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noopener noreferrer" href="http://ke.tanzhouedu.com/">
+                            潭州商城
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://tanzhou.tmall.com/">
+                            潭州天猫旗舰店
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://res.shiguangkey.com/res/safe-html/TZKT-safe.html">
+                            安全中心
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    <!-- 以下是页脚部分 -->
+        <div class="footer">
+            <div class="footer-information">
+                <div class="archival-information">
+                    <img src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QOKaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YjIwNzhlNjktMzMyMC00ODdlLWEwOGItNDNkNGM0MjU5MGRhIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkQ4NDJDQ0EwM0VCRDExRThCQzE1RjBGNzcxMkRFMEFBIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkQ4NDJDQzlGM0VCRDExRThCQzE1RjBGNzcxMkRFMEFBIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmM3YmRiY2Q1LTlmMmMtNGNlOS05YjU0LTBjOGRmZTQ0NzJiZiIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjBkZWU3MWU2LWMwNDAtMTE3YS1iMWM0LWRlYWI3ZGU0NzcyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIAC8AnAMBEQACEQEDEQH/xACAAAACAgMBAQAAAAAAAAAAAAAFBgQHAAIDAQgBAQEBAAAAAAAAAAAAAAAAAAABAhAAAgEDAgQEAwQHBgcAAAAAAQIDEQQFABIhMRMGQSIUFVEyB2FxQhaBkaFicpIzUoLSIyRV8NGiRMSFRhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD6V1QOz2esMLYPd3bgEA9KKvmkbwVR/wAU0FT4fvrui0uZTbt6pZ5Gla2kVpFDOdzbaEMvE+B1cZ1Lzf1B7ungMDxDHI4oWjR0cj7Gcmn6NMNN/wBPO6LbIYqHHTSgZC0Xp7GPGSNflZa86DgdSrDforNAMvO4sda3stjIZGvI4eukCIS0qipKxcg7cOQ/56AW/f8AYpLHC+MySyzV6UbW1GfaKttBapoOdNMTW1p35Y3bKIMbkXRn6fUFvVA1aGpDGlPHTDTI7BUZjyUE/q0UIt+57KTtsZ945EtdrO0fAuArlPiBzHx0R2yOcgsosfK0bOuQuYbaOlAVM4JDGvgKaKmXl9Z2UPWu50t4ahepKwRankKnQBLfvzt2SG7lluo4RayyRKpdWaVY6UkjUGrK3hpialWfdOLub+7tDIIPSrCwkmZUDidN42hiD5RzroaJLd2rQNcJKrwICWkQhlAXieIry0UF/PvaP+4p/LJ/h0xNRcd9SO2bqDqTzmzlDFTDKGJoORBQMOOmGpX587R/3JP5ZP8ADphrj9Q3uoe2J7q1uZbaa3eNw8LtGxDMIypKkcPPXSFIPafbU/cM8uSy1w/ttt/XnkclnIG4rvatABxY6qQaPfUMFwmJ7PxcbbjsR2U+cjxCgq327mb79MXThi7fuSaHbnDZPG489vHE7c/Aszbf+nUCj3x2DBbwPl8KhhMPnuLVK0CjiXj+G3mR+rV0sbfSq7yN7c38l1ezzpbxxpHDLK7oOoWNQrEio6epSLF0UGuLqSfNSY+bHFWELPYZKgdPMu2QbgKxmpp9uiKwWxhWaAPJbTPZtJHcEHInqt8vFlj8u39yldVE/tnGhszj4IJoFnjuPUsQb1XeJDuZAssax8B+nQPfcOTvLbLYezgfbFetOLhaA7ljj3cyKjj8NRSLaZS7Hab4t2HpGxT3MS0Fd4vGQ8fu1UE58pd3bWNrcsD6LOWKQgACkTRsVBpz0U39yRX0lkvphYmNG3T+4qzRBQOBFOR+/UVWFnbT5TJT4e1fGuXuWvOqEZVkbmYImID9MU5Cn36rIsILSa37nlzWPEeVWN7qFpCCY1lUpCq05bSBx0U9drWMVn29YQpGIyYI3mUClZGQFyftJ1FI/e93LB3Qkd29tJZQIstrZSrKIyWFN0giVtx3A8zqpXK97yvr20kt/X4yyVxTqww3wlWhr5W6ZA0TTf6vJ/kr3Dow+4+l6u7hspSvV5f2PPt/RqKU/qT3haXsYw+PcSxo+66mX5Sy8kU+NDxJ1YWtu6JTiewMRjbfyeuVXuCPEbRI4/S7jQSPpFjoDFfZFgDMGWCMnmq03NT76j9WlIsXUVjKrKVYAqRQg8iDoKfweZi7U7vvoJATjzLJbygcSqK52OB47dVlbdrdW93bx3NtIssEo3RyKagjUaBsz3G1lmrSxj2mIRS3WSYqztHBGvlIC8as3DloiuLi7tLRLqaC4iud8rypGRkImIduXlMUfDVQU7evcbB3DaX015HRFeMRRJfOS0o2jjOHpxPgdA9ZyxslljzdzIynFwzlEqNn+YlGJ4VrQcOOopTOFt4vpul7NFS+SyZUkqwpFNN1ANtacd3w0E/O42yt48Fdwx7Li8ymONy9WO4xoyrwJoKD4aAv3Zj7O5gtprjGS5V4ZCI7aJtoG8VLOKqCBsHPQK/bxy0vct9e2+FjVrdktlRpY41tY6cVVVHmYjxGg5d7T4+67iRoXkezgSODPywjdGsXWDKrEeNeeqVY8MkMsKSQsrwuoMbIQVKkcCKeGopB7nN4O9XNqL0v6FN3t5USU6h+bcD5dEDss+aOMuuqmdEfSfebgx9KlOPUovy/HVQ5/wDwP/qv/G1FLn1Q7ZtBZ+920YjnR1W7CigdXNA5/eDUH210hUXNRNnvp5jr62G+fFgJcIOJCoux+H6Fb7tUQPpr3PbYu9msb1xHbXhUpK3BUkXgN3wDA89KkW2CCAQag8jqNNZpY4YnmlYJFGpd3PIKoqSdBU/aOIt+5+6r/IXabrOORrhojyZpXJjRvsoDX7tVmLZRERAiKFRRRVAoAByAGo0GXGT7aschK9xdWtvkGVUmLuiSFRxUNU18dBtmHwVzi+nkp4hj7zaFZpNivXzrtcEc6V4HQS7i9srQxJcTxwmZhHCJGC7mPJVrzOgi5UYS9trmxyEkbQxKst1EX2lEB3Kz0IIHl0GiZHtvKIcdHdW12ki0Nsjo1VXj8qnkKaDW7bt28sLW7nnhaxtJ45racSBY1liJVPMCAaE0poJeQymLsVUX91FbrJUKJXVd3xoCeOgh4qw7cwsCR2LRwxX7jpkyl+q5HlCFmbdw5U0RtaW/bePtbrHwC3igt13X0BIO1XWtZdxJoV/teGivMRkO2YbX0mMu7f09qjSGOOVW2Rg1ZjxJpVuJOg8sbrtq8yz3lldQT5FoRC3TlDMYlbd8gNOfjTQe5eLt3LWE8WQljltLST/UHq7RHInCjspG0jdyOgm9DH+2enovt/Q6dK+To7KfNXlt8a6AR31YZTIdvS2OOg9RNO8YddyJRFbfWrlRzUDSJVeYbIdw9l3pF/ZyCyueE0LfK1PxI4qu4aqClx232Rn2N1iMmmOmk4vaS0ABPOiMVI/ukj4aKlWWAXDRj1vdxgs0/wC3gk2kj90Fm/YugHdxd1z5mNcD27DNJat/VkO55pqfGtW2+JLcT400Qa+m2Bz+HubwZCzMFvdRoVkLxt54yaDarFuIc+GpVh80Up9247HvnME720TPcXZW4ZkUmRQlAHNPMBTx0ShnfhiuchBiY7WeeGzs5ZFitIjIEllXpwblWm1U210hWudB7jwfbQEuya7YqZPhKsRBP866DbtTKLd5DNXOZQI1vaQw5FZQCpMO9XJHGtdtaaCV2ZHirzJz5om2gubmsePx8RjV44F5sUXjvalT9mhCyo7g/ISA+l9l6wof8z1NfUU/gpv/AGaqGecYlu+siubEJhFnF6P1W3Zs/Ht38K7q/t1FBrBxb4Htye4bp2ceVYxSOaKsW5tpJPIVB1QRlmgurjvi5t5Flga0iVZUIZCy2zBgGHA0I1Br2+sf5XvxIcYZfbD0vRU9Ts6J3+o8a121+3QRYIsV0e0PbRD7qZYTc9Db1OkFrN1dvH+b7dB7dX1lBhu8LWedI7qS9mMcLMA7Byu0qp4mtPDQO3Sf8udHad/o9m3xr0qU0UR0EHNwYqfGTQ5V447OQbXeVlRVJ5EM3AGvLQVDjO0rO6nmF3mrGzt45GRHM0TvIFJG5UDjymnCp1WcScp2XioIGlx3cNjdOor0HlijY/wtvYV++mhh3+nNjiLTDJ6eeCfITKJb0xujuu75UbaSQFHh8a6lWGzRWaCLdjGGe29X0euHPo+rt3dSnHp7uO6nw0HsIxvr7gw9H15Ceq2bertp5N9PNSnKugi269tdK09P6TpCRvQ9Mx7erx3dKn4uddugx17aMl/v9J1Co9zqY922nDrfZ/FoI+LTssXinFnH+sodnpjCZKU81Nhry0R329se0Af6P2jdw4x+n3bvj8ld/wC3RWZpO2HaL3r0e4VMPqzGDTx27yOGg7XowhxgF56b2wqu3q7BBt/BSvl+7QcrJO2hi5ls/Se10b1HSMZhpTz7yPLy510EewTssC49v9voYWF10DD/AEfxb9p+T414aI3wydopcN7ObE3BXzelMTPt/uEmmgy9TtA5NWvfQ+5grt6xiE1fw8GO6vw0BjRX/9k=" alt="潭州课堂">
+                    <div class="bulletin-board">
+                        <div class="copyright">
+                            <a href="#">
+                                备案号：湘ICP备17002945号-1
+                            </a>
+                            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43019002000435">
+                                湘公网安备 43019002000435号
+                            </a>
+                            <a href="https://tz-static.oss-cn-shanghai.aliyuncs.com/img/tzkt_zhizhao.jpg">
+                                营业执照
+                            </a>
+                            <a href="https://tz-static.oss-cn-shanghai.aliyuncs.com/img/tzkt.jpg">
+                                资质证书
+                            </a>
+                            <a href="https://v.yunaq.com/certificate?domain=www.shiguangkey.com&from=label&code=90030" title="行业认证">
+                                <img src="https://aqyzmedia.yunaq.com/labels/label_sm_90030.png" width="42" height="15" alt="行业认证">
+                            </a>
+                            <p class="copyright-information">
+                                Copyright © 2019 湖南潭州教育网络科技有限公司 版权所有
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="qr-code">
+                    <li>
+                        <img src="https://www-cdn-res.shiguangkey.com/dist/static/app_down.19a82af3.png" alt="">
+                        <p>扫码下载潭州课堂APP</p>
+                    </li>
+                    <li>
+                        <img src="https://www-cdn-res.shiguangkey.com/dist/static/qrcode_for_footer.b2b7c2de.png" alt="">
+                        <p>关注潭州课堂官方公众号</p>
+                    </li>
+                </ul>
+                <div class="contact-hotline">
+                    <img src="https://www-cdn-res.shiguangkey.com/dist/static/home_phone_footer.757cbbe0.jpg" alt="">
+                    <p class="region-interest">
+                        <a class="weibo" href="">
+                            <img src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QOKaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YjIwNzhlNjktMzMyMC00ODdlLWEwOGItNDNkNGM0MjU5MGRhIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkQ4NTM2RUE4M0VCRDExRThCQzE1RjBGNzcxMkRFMEFBIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkQ4NTM2RUE3M0VCRDExRThCQzE1RjBGNzcxMkRFMEFBIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmM3YmRiY2Q1LTlmMmMtNGNlOS05YjU0LTBjOGRmZTQ0NzJiZiIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjBkZWU3MWU2LWMwNDAtMTE3YS1iMWM0LWRlYWI3ZGU0NzcyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIABMAVwMBEQACEQEDEQH/xACVAAACAgMAAAAAAAAAAAAAAAAEBQYHAAECAQEAAgMBAAAAAAAAAAAAAAAAAQUDBAYCEAABAwIEAwMICAcAAAAAAAACAQMEEQUAIRITIhQGMTIzQVFhIzQVNQeBkVJjsyREhHHBQmLCFjYRAAEDAwIDBgcBAAAAAAAAAAABEQIxEgMhQYEyBFGhIkKCBWFxscHhokNj/9oADAMBAAIRAxEAPwC75/Xdut94ciSwcCA2Coc1GZCoD4npUCTboqFVNJAq5/RiQdWjrJu4wpb3LkxJZ3DYjSBdjoTaFpa1uugLYk4qpkirSuAN3PreHb4jT70GcJkTKOslEk8CPEgU3AbNkjRS7qHmuSLXAgJf6qhDHBxll9XHHRaFuSw/D7aajJZDbdABFzKnbQU4lRMCRd/vw7Trh2e4s6SaRlHoshtTRxWRVKK2qq4JPHwNodUbJexUwIc5k/MaztvamCGTHKIkltpCFiQak5pojckmKJo486VHNMsA4BA+Z0mZduTbszqtLJSPVXYwmiG0BitN5UItRrkP9NM61TAOTzAkhfV/zGYtD5Qbe2MqcGTpGq7ba/ZWlFIvOlcsaPUdYkFZNVLr2/2dcyXzW2PeoCHzAsly6c5e9qKTH9QuR20eFvhKoKRBUhRaJWiquPCdXCUGlXiZ19py4sz4uVN9H+NTliO7b5LcWOG3EnnIt8u3G66ccl2dYPNGXrBFULi8uCJarJRXRtqEymmSKyXWULZJJkSVWZUo/Yb6ot9zupu2O09QSps0zByS0YxVjRgA0cHdIGEJF1CiAOrUvauVcWJzgVDukZu3zXrrd5Ut+JGcK4dPzgioVUBajobZbIxWnCQqolgAHqmbbmun48NzqJuDMje72n7M09EUWybfZ1rR4HJHq04uI/JnlXADOdJgS4cI2OoUvEaLcI7ktUOK5VFMdAucsDYoIaVNEUa1zrlgCN+7JkNpDjW7XcpzESbbHW4sWPomK46ZNVZbYUk2xHXrVdCVVVRaIoDC5wGJUcI9ojHJT3K000gCIvCjLyCVRNRXWKBpUa1rlgBRaYtyavkN5mJJe56SMwGidjCWlhptFEx3VWvBXip/DAFrXNyS3bZbkVNUkGXCYHtq4gKop9ePE1W1WqZsCRWcUlyuj/IrSNBYhWC3zISRHLlcRefk3GfpIW1aopNhrQhQ1UqdlVov0VsYpGCKjXLup008qzzSjK5IQZEjHd99NvwEtLbrx0VcLhdo7Lb8UnAhz22hZJwhFFboiUrUl0qnZj0ls8SyklKKYpX4eqjDGqqkmeLu3b3DOwTrpM6Dl3K4cc2K1KK3yyFN1BFlUQxKlUWupK4yYpSXEspVR2NbqsWOHVxhDlksbk2rQkXTPsLvsHjvfDfC76977z7fpxvlEEufGWvZvBLve1d5O5935/TgA3AGYAzAAOXvz9PXlv3Xifhf5YAWRP8AsZnwjw08L4p3A8b+3zeimAJDgCvrjt0uOzt8zvrq5DXytPJzG9+X3vPTFdPdqvtTi+jnQ4n8Dvbb5mu9LeK0V3La/I83ubuWn31uclWmWzynq/rypjFPZ/2p3G1hfxWs3+bX8b9SyU+DfpvZ/wBr3Pwv5YsvLtTgc1/Tzc3qr9fuf//Z" alt="关注微博">
+                            <img class="weibo-qr" src="https://res.shiguangkey.com/file/201809/15/20180915103712002692025.png?x-oss-process=image/resize,w_200" alt="">
+                        </a>
+                        <a class="weixin" href="">
+                            <img src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QOKaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YjIwNzhlNjktMzMyMC00ODdlLWEwOGItNDNkNGM0MjU5MGRhIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkQ4NTM2RUFDM0VCRDExRThCQzE1RjBGNzcxMkRFMEFBIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkQ4NTM2RUFCM0VCRDExRThCQzE1RjBGNzcxMkRFMEFBIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmM3YmRiY2Q1LTlmMmMtNGNlOS05YjU0LTBjOGRmZTQ0NzJiZiIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjBkZWU3MWU2LWMwNDAtMTE3YS1iMWM0LWRlYWI3ZGU0NzcyOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIABMAVwMBEQACEQEDEQH/xACIAAACAgMBAAAAAAAAAAAAAAAEBQAGAgMHAQEBAAMBAQAAAAAAAAAAAAAAAAEDBQQCEAABAwMCAwUFBgcAAAAAAAACAQMEERIFACEiEwYxMjMUNEFRYWMVcYFSgjUWoXIjQ1NkBxEAAgIBAgYDAQAAAAAAAAAAAAERAgMxBFFhcYESIkHhMoL/2gAMAwEAAhEDEQA/AO3z+u8dj8w5Elg4EBsFQ5qMyFQHxO1QJOXRUKqWkCrv92pBliOsm8jClveXJiSzzDYjSBdjoTaFa1e66AtiTiqmyKtK6A9yfW8PHxGn3oM4TImUdZKJJ4EeJApzAbNkjRS7qHuuyLXQgJf6qhDHBxll9XHHRaFuSw/D7aXGSyG26ACLuVO2gpxKiaEi79/DynXDw+RZtJpGUeiyG1NHFZFUoraqrgk8fA2h1Rsl7FTQiTdM61jJ9OcxzZTGZbbst0bFbdSIylquCDys0q4Y0UtraroSCw/+go7Ldacxr6tk4Iw+WcVTISFEW8ef3r60trtoQW/Qk57lsyeQkSee842yFUisAnCqotEv3T2e3WVky+TcvoZGXN5ty+hjjJ8mA2zIjvknESPsuKgtKiUog1WpL9ibaY7usNMY7usNMu7GZxsiO4+y+JgyKm6id4RRKqqj260Vlq1KZpVzValMpPVGPyeVN3B4nqCVNmmYOSWjGKsaMAGjg80gYQkW4UQBuuXtXaurCwKh5SM3j5r2Vy8qW/EjOFkOn5wRUKqAtRsbZbIxWnCQqoloAHqmbjmun48NzqJuDMjfT2n8M09EUWybfZvWjwOSP6acXEfs32roBnOkwJcOEbHUKZiNFyEdyWqHFcqimNgueWBsUELVNEUa13rtoCt/TJkNpDjY6/JTmIk3GOtxYseyYrjpk1VlthSTliN96rYlVVUWiKAZPZxWOcaycJHHm/23OC01UCQIiRgFq0kLlqK3XJTYlWugF+PdxzOUxpBPx0s3ZkdtGIk9HnuNwUus5I1Qe1d9Adc0JKZmukpbmRcPHhc0acwkJUFEIlWojVd/frPy7Zu3qZubat29RNkGX4Ms477Q3I0ICJ7oKKKcQ0Wla1+/XPdOrhnPkTq4aNUdySZWxwQSbZcRwgRUubtJTU9/ctNRVt6cDzVt6cC99M+hd9B4736b4XfXvfM/H8dbJuBLn6y16bwS73qu8nc+X7/joA3QE0BNAKc52n6D0Ur13b/b73+v/m/LoDKZ3Y/ovHZ8bs76eH8z8Hx0A00BNAIeqOVa1zPJ27+q5l/5OXxU9+ubcfz3OXcx8+Pf6AcP5bkz7PJ2+VK7k8+2lF8S/ip/Lv8Aw1ViiHppzKsURb86cz//2Q==" alt="关注微信">
+                            <img class="weixin-qr" src="https://res.shiguangkey.com/file/201809/15/20180915104155605545258.png?x-oss-process=image/resize,w_200" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+ </body>
+</html>
